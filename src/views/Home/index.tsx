@@ -1,11 +1,15 @@
 import Button from '../../components/Button'
+import styles from './Home.module.scss'
+import Link from 'next/link'
 
 const Home = () => {
   return (
-    <>
-      <h1>This simple component</h1>
-      <Button>This Is Button</Button>
-    </>
+    <div className={styles.container}>
+      <h1>Welcome to my boot</h1>
+      <Link href="/component">
+        <Button>This Is Button</Button>
+      </Link>
+    </div>
   )
 }
 

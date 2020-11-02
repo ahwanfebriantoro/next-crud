@@ -1,7 +1,8 @@
-@import '../../styles/color.module.scss';
+@import '../../styles/color';
 
 
 .button {
     background-color: $primary;
     border-radius: 5px;
+    padding: 5px
 }
